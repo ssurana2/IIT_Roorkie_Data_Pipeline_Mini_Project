@@ -1,0 +1,68 @@
+# Lead Qualification Configuration & Rubric Definition
+
+model:
+  provider: groq
+  name: openai/gpt-oss-120b
+  temperature: 0.1
+  max_retries: 3
+  backoff_seconds: 2.0
+  request_timeout_seconds: 30
+
+pipeline:
+  batch_size: 10
+  default_input: leads_full_scale_100.csv
+  output_json: output_report.json
+  output_csv: output_report.csv
+  target_reference_date: "2024-01-20"
+
+rubric:
+  factors:
+    company_size:
+      weight: 0.30
+      sweet_spot_min: 50
+      sweet_spot_max: 2000
+    industry_fit:
+      weight: 0.25
+      tier_1:
+        - SaaS
+        - Software
+        - Cloud
+        - FinTech
+        - Cybersecurity
+        - Analytics
+        - Healthcare
+        - Logistics
+        - InsurTech
+        - HealthTech
+        - AI/ML
+      tier_2:
+        - Retail
+        - Manufacturing
+        - Marketing
+        - Finance
+        - Legal
+        - Telecom
+        - Real Estate
+        - Consulting
+        - Construction
+    source_intent:
+      weight: 0.25
+      high_intent:
+        - Inbound demo request
+        - Sales call
+      medium_intent:
+        - Referral
+        - Webinar attendee
+      low_intent:
+        - Content download
+        - LinkedIn outreach
+    interaction_recency:
+      weight: 0.20
+      fresh_days: 30
+      moderate_days: 60
+      stale_days: 120
+
+decision_thresholds:
+  qualified_min_score: 7.5
+  review_min_score: 5.0
+  priority_high_min_score: 8.5

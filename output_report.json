@@ -1,0 +1,2674 @@
+{
+  "metadata": {
+    "total_leads_processed": 100,
+    "execution_time_seconds": 1.11,
+    "batch_size": 10,
+    "average_qualification_score": 7.77
+  },
+  "aggregated_stats": {
+    "qualified_count": 60,
+    "qualified_percentage": 60.0,
+    "review_count": 38,
+    "review_percentage": 38.0,
+    "disqualified_count": 2,
+    "disqualified_percentage": 2.0,
+    "common_rejection_reasons": [
+      {
+        "reason": "Cold outbound outreach",
+        "count": 18
+      },
+      {
+        "reason": "Hospitality is non-core vertical",
+        "count": 3
+      },
+      {
+        "reason": "Energy is non-core vertical",
+        "count": 3
+      },
+      {
+        "reason": "EdTech is non-core vertical",
+        "count": 2
+      },
+      {
+        "reason": "Insurance is non-core vertical",
+        "count": 2
+      }
+    ]
+  },
+  "sample_outreach_messages": [
+    {
+      "lead_id": "LEAD-0001",
+      "contact_name": "Alice Chen",
+      "company": "CloudScale AI",
+      "industry": "SaaS",
+      "source": "Inbound demo request",
+      "score": 10.0,
+      "outreach_message": "Hi Alice Chen, thanks for reaching out for a demo of our platform. Given CloudScale AI's focus in SaaS with ~50 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?"
+    },
+    {
+      "lead_id": "LEAD-0006",
+      "contact_name": "Frank Liu",
+      "company": "Healthcare Systems Ltd",
+      "industry": "Healthcare",
+      "source": "Sales call",
+      "score": 10.0,
+      "outreach_message": "Hi Frank Liu, thanks for reaching out for a demo of our platform. Given Healthcare Systems Ltd's focus in Healthcare with ~1200 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?"
+    },
+    {
+      "lead_id": "LEAD-0030",
+      "contact_name": "Derek Johnson",
+      "company": "Cloud Infrastructure",
+      "industry": "SaaS",
+      "source": "Inbound demo request",
+      "score": 10.0,
+      "outreach_message": "Hi Derek Johnson, thanks for reaching out for a demo of our platform. Given Cloud Infrastructure's focus in SaaS with ~200 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?"
+    },
+    {
+      "lead_id": "LEAD-0054",
+      "contact_name": "Amelia Davis",
+      "company": "Cybersecurity Consulting",
+      "industry": "Cybersecurity",
+      "source": "Sales call",
+      "score": 10.0,
+      "outreach_message": "Hi Amelia Davis, thanks for reaching out for a demo of our platform. Given Cybersecurity Consulting's focus in Cybersecurity with ~95 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?"
+    },
+    {
+      "lead_id": "LEAD-0057",
+      "contact_name": "Dominic Wheeler",
+      "company": "Payment Processing",
+      "industry": "FinTech",
+      "source": "Inbound demo request",
+      "score": 10.0,
+      "outreach_message": "Hi Dominic Wheeler, thanks for reaching out for a demo of our platform. Given Payment Processing's focus in FinTech with ~500 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?"
+    }
+  ],
+  "priority_queue": [
+    {
+      "lead_id": "LEAD-0001",
+      "name": "Alice Chen",
+      "company": "CloudScale AI",
+      "score": 10.0,
+      "priority": "HIGH",
+      "industry": "SaaS",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0006",
+      "name": "Frank Liu",
+      "company": "Healthcare Systems Ltd",
+      "score": 10.0,
+      "priority": "HIGH",
+      "industry": "Healthcare",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0030",
+      "name": "Derek Johnson",
+      "company": "Cloud Infrastructure",
+      "score": 10.0,
+      "priority": "HIGH",
+      "industry": "SaaS",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0054",
+      "name": "Amelia Davis",
+      "company": "Cybersecurity Consulting",
+      "score": 10.0,
+      "priority": "HIGH",
+      "industry": "Cybersecurity",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0057",
+      "name": "Dominic Wheeler",
+      "company": "Payment Processing",
+      "score": 10.0,
+      "priority": "HIGH",
+      "industry": "FinTech",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0059",
+      "name": "Franklin Hayes",
+      "company": "Accounting Software",
+      "score": 10.0,
+      "priority": "HIGH",
+      "industry": "Software",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0063",
+      "name": "Jerome Long",
+      "company": "Logistics Optimization",
+      "score": 10.0,
+      "priority": "HIGH",
+      "industry": "Software",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0065",
+      "name": "Lauren Blake",
+      "company": "Medical Devices",
+      "score": 10.0,
+      "priority": "HIGH",
+      "industry": "Healthcare",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0049",
+      "name": "Victoria Summers",
+      "company": "Transportation Logistics",
+      "score": 9.7,
+      "priority": "HIGH",
+      "industry": "Logistics",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0069",
+      "name": "Penny Walsh",
+      "company": "Mental Health Platform",
+      "score": 9.7,
+      "priority": "HIGH",
+      "industry": "HealthTech",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0019",
+      "name": "Samuel Lee",
+      "company": "Cybersecurity Startup",
+      "score": 9.6,
+      "priority": "HIGH",
+      "industry": "Cybersecurity",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0056",
+      "name": "Chloe Mitchell",
+      "company": "Supply Chain Analytics",
+      "score": 9.6,
+      "priority": "HIGH",
+      "industry": "Software",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0068",
+      "name": "Oscar Rivera",
+      "company": "Warehouse Automation",
+      "score": 9.6,
+      "priority": "HIGH",
+      "industry": "Logistics",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0050",
+      "name": "William Knight",
+      "company": "Pharmaceutical Distribution",
+      "score": 9.3,
+      "priority": "HIGH",
+      "industry": "Healthcare",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0080",
+      "name": "Audrey Powell",
+      "company": "Dental Practice Management",
+      "score": 9.3,
+      "priority": "HIGH",
+      "industry": "Healthcare",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0095",
+      "name": "Priya Patel",
+      "company": "Network Security",
+      "score": 9.3,
+      "priority": "HIGH",
+      "industry": "Cybersecurity",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0010",
+      "name": "Jack White",
+      "company": "Digital Marketing Agency",
+      "score": 9.1,
+      "priority": "HIGH",
+      "industry": "Marketing",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0014",
+      "name": "Nathan Brooks",
+      "company": "Enterprise Solutions Corp",
+      "score": 9.1,
+      "priority": "HIGH",
+      "industry": "Software",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0022",
+      "name": "Victor Moore",
+      "company": "Real Estate Platform",
+      "score": 9.1,
+      "priority": "HIGH",
+      "industry": "Real Estate",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0036",
+      "name": "James Wilson",
+      "company": "Property Management",
+      "score": 9.1,
+      "priority": "HIGH",
+      "industry": "Real Estate",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0046",
+      "name": "Sophia Moretti",
+      "company": "Wine Distribution",
+      "score": 9.1,
+      "priority": "HIGH",
+      "industry": "Retail",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0060",
+      "name": "Gina Reeves",
+      "company": "E-commerce Platform",
+      "score": 9.1,
+      "priority": "HIGH",
+      "industry": "SaaS",
+      "source": "Webinar attendee"
+    },
+    {
+      "lead_id": "LEAD-0012",
+      "name": "Leon Chen",
+      "company": "FinTech Startup",
+      "score": 8.9,
+      "priority": "HIGH",
+      "industry": "FinTech",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0098",
+      "name": "Sophie Lawrence",
+      "company": "Laboratory Information",
+      "score": 8.9,
+      "priority": "HIGH",
+      "industry": "Healthcare",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0024",
+      "name": "Xavier Lopez",
+      "company": "Data Analytics Firm",
+      "score": 8.8,
+      "priority": "HIGH",
+      "industry": "Analytics",
+      "source": "Webinar attendee"
+    },
+    {
+      "lead_id": "LEAD-0045",
+      "name": "Steven Chen",
+      "company": "Robotics Company",
+      "score": 8.8,
+      "priority": "HIGH",
+      "industry": "Manufacturing",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0062",
+      "name": "Iris Wagner",
+      "company": "Telecommunications Equipment",
+      "score": 8.8,
+      "priority": "HIGH",
+      "industry": "Telecom",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0071",
+      "name": "Ruby Chen",
+      "company": "Sustainable Fashion",
+      "score": 8.8,
+      "priority": "HIGH",
+      "industry": "Retail",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0078",
+      "name": "Yolanda Martinez",
+      "company": "Customer Support Platform",
+      "score": 8.8,
+      "priority": "HIGH",
+      "industry": "SaaS",
+      "source": "Webinar attendee"
+    },
+    {
+      "lead_id": "LEAD-0084",
+      "name": "Ezra Fox",
+      "company": "Veterinary Practice",
+      "score": 8.8,
+      "priority": "HIGH",
+      "industry": "Healthcare",
+      "source": "Webinar attendee"
+    },
+    {
+      "lead_id": "LEAD-0087",
+      "name": "Harper Knight",
+      "company": "Retail Inventory",
+      "score": 8.8,
+      "priority": "HIGH",
+      "industry": "Retail",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0055",
+      "name": "Bradley Foster",
+      "company": "Cloud Storage",
+      "score": 8.6,
+      "priority": "HIGH",
+      "industry": "SaaS",
+      "source": "Content download"
+    },
+    {
+      "lead_id": "LEAD-0028",
+      "name": "Bella Cross",
+      "company": "Legal Services Firm",
+      "score": 8.4,
+      "priority": "MEDIUM",
+      "industry": "Legal",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0037",
+      "name": "Katherine Lee",
+      "company": "Artificial Intelligence Lab",
+      "score": 8.4,
+      "priority": "MEDIUM",
+      "industry": "AI/ML",
+      "source": "LinkedIn outreach"
+    },
+    {
+      "lead_id": "LEAD-0038",
+      "name": "Liam O'Connor",
+      "company": "Venture Capital Fund",
+      "score": 8.4,
+      "priority": "MEDIUM",
+      "industry": "Finance",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0086",
+      "name": "Gemma Hart",
+      "company": "Public Relations Firm",
+      "score": 8.4,
+      "priority": "MEDIUM",
+      "industry": "Marketing",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0090",
+      "name": "Kevin Grant",
+      "company": "Knowledge Management",
+      "score": 8.4,
+      "priority": "MEDIUM",
+      "industry": "Software",
+      "source": "Webinar attendee"
+    },
+    {
+      "lead_id": "LEAD-0073",
+      "name": "Tara Gonzalez",
+      "company": "Nutrition Tech",
+      "score": 8.3,
+      "priority": "MEDIUM",
+      "industry": "HealthTech",
+      "source": "Content download"
+    },
+    {
+      "lead_id": "LEAD-0017",
+      "name": "Quinn Matthews",
+      "company": "Consulting Firm",
+      "score": 8.2,
+      "priority": "MEDIUM",
+      "industry": "Consulting",
+      "source": "Webinar attendee"
+    },
+    {
+      "lead_id": "LEAD-0041",
+      "name": "Olivia Martinez",
+      "company": "Renewable Energy Corp",
+      "score": 8.1,
+      "priority": "MEDIUM",
+      "industry": "Energy",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0048",
+      "name": "Ursula Hoffmann",
+      "company": "Insurance Tech",
+      "score": 8.1,
+      "priority": "MEDIUM",
+      "industry": "InsurTech",
+      "source": "LinkedIn outreach"
+    },
+    {
+      "lead_id": "LEAD-0070",
+      "name": "Quinton Price",
+      "company": "Database Software",
+      "score": 8.1,
+      "priority": "MEDIUM",
+      "industry": "Software",
+      "source": "LinkedIn outreach"
+    },
+    {
+      "lead_id": "LEAD-0082",
+      "name": "Cecilia Santos",
+      "company": "Freight Forwarding",
+      "score": 8.1,
+      "priority": "MEDIUM",
+      "industry": "Logistics",
+      "source": "LinkedIn outreach"
+    },
+    {
+      "lead_id": "LEAD-0053",
+      "name": "Zachary Pierce",
+      "company": "Office Furniture",
+      "score": 8.0,
+      "priority": "MEDIUM",
+      "industry": "Retail",
+      "source": "Webinar attendee"
+    },
+    {
+      "lead_id": "LEAD-0072",
+      "name": "Silas Brown",
+      "company": "Financial Advisory",
+      "score": 8.0,
+      "priority": "MEDIUM",
+      "industry": "Finance",
+      "source": "Webinar attendee"
+    },
+    {
+      "lead_id": "LEAD-0005",
+      "name": "Emma Thompson",
+      "company": "RetailWorks Solutions",
+      "score": 7.9,
+      "priority": "MEDIUM",
+      "industry": "Retail",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0097",
+      "name": "Raymond Grant",
+      "company": "Logistics Tracking",
+      "score": 7.9,
+      "priority": "MEDIUM",
+      "industry": "Logistics",
+      "source": "Content download"
+    },
+    {
+      "lead_id": "LEAD-0035",
+      "name": "Isabella Romano",
+      "company": "Luxury Hotels",
+      "score": 7.8,
+      "priority": "MEDIUM",
+      "industry": "Hospitality",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0047",
+      "name": "Theo Papadopoulos",
+      "company": "Construction Tech",
+      "score": 7.8,
+      "priority": "MEDIUM",
+      "industry": "Construction",
+      "source": "Content download"
+    },
+    {
+      "lead_id": "LEAD-0061",
+      "name": "Harrison Scott",
+      "company": "Commercial Real Estate",
+      "score": 7.8,
+      "priority": "MEDIUM",
+      "industry": "Real Estate",
+      "source": "Content download"
+    },
+    {
+      "lead_id": "LEAD-0067",
+      "name": "Natalie Stone",
+      "company": "Fashion E-commerce",
+      "score": 7.8,
+      "priority": "MEDIUM",
+      "industry": "Retail",
+      "source": "Content download"
+    },
+    {
+      "lead_id": "LEAD-0075",
+      "name": "Veronica Adams",
+      "company": "Commercial Cleaning",
+      "score": 7.8,
+      "priority": "MEDIUM",
+      "industry": "Business Services",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0077",
+      "name": "Ximena Flores",
+      "company": "Gaming Studio",
+      "score": 7.8,
+      "priority": "MEDIUM",
+      "industry": "Entertainment",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0081",
+      "name": "Bryson Hart",
+      "company": "Climate Analytics",
+      "score": 7.8,
+      "priority": "MEDIUM",
+      "industry": "Climate Tech",
+      "source": "Inbound demo request"
+    },
+    {
+      "lead_id": "LEAD-0089",
+      "name": "Julian Parks",
+      "company": "Hotel Management",
+      "score": 7.8,
+      "priority": "MEDIUM",
+      "industry": "Hospitality",
+      "source": "Sales call"
+    },
+    {
+      "lead_id": "LEAD-0031",
+      "name": "Ethan Smith",
+      "company": "Mobile Development",
+      "score": 7.6,
+      "priority": "MEDIUM",
+      "industry": "Software",
+      "source": "LinkedIn outreach"
+    },
+    {
+      "lead_id": "LEAD-0023",
+      "name": "Wendy Zhang",
+      "company": "Fashion Brand",
+      "score": 7.5,
+      "priority": "MEDIUM",
+      "industry": "Retail",
+      "source": "Content download"
+    },
+    {
+      "lead_id": "LEAD-0025",
+      "name": "Yuki Tanaka",
+      "company": "Travel Technology",
+      "score": 7.5,
+      "priority": "MEDIUM",
+      "industry": "Travel",
+      "source": "Referral"
+    },
+    {
+      "lead_id": "LEAD-0066",
+      "name": "Marcus Hunt",
+      "company": "Venture Studio",
+      "score": 7.5,
+      "priority": "MEDIUM",
+      "industry": "Finance",
+      "source": "Webinar attendee"
+    },
+    {
+      "lead_id": "LEAD-0074",
+      "name": "Ulysses Morgan",
+      "company": "Autonomous Vehicles",
+      "score": 7.5,
+      "priority": "MEDIUM",
+      "industry": "Automotive",
+      "source": "Referral"
+    }
+  ],
+  "flagged_leads_for_review": [
+    {
+      "lead_id": "LEAD-0002",
+      "name": "Bob Rodriguez",
+      "company": "TechVentures Inc",
+      "score": 6.0,
+      "reasoning": "Company size: Micro-team (8 employees) below mid-market threshold (Subscore: 2.0/10, Weight: 30%) | Industry fit: SaaS is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (0 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0003",
+      "name": "Carol Singh",
+      "company": "National Bank Corp",
+      "score": 6.1,
+      "reasoning": "Company size: Large enterprise (5000 employees), longer procurement (Subscore: 7.0/10, Weight: 30%) | Industry fit: Finance is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Warm interaction (50 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0004",
+      "name": "David Moore",
+      "company": "StartupXYZ",
+      "score": 7.2,
+      "reasoning": "Company size: Micro-team (3 employees) below mid-market threshold (Subscore: 2.0/10, Weight: 30%) | Industry fit: SaaS is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Hot lead (2 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0007",
+      "name": "Grace Lee",
+      "company": "Manufacturing Co",
+      "score": 7.0,
+      "reasoning": "Company size: Ideal mid-market fit (450 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Manufacturing is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Cooling lead (107 days ago) (Subscore: 4.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0008",
+      "name": "Henry Park",
+      "company": "EdTech Innovations",
+      "score": 6.8,
+      "reasoning": "Company size: Ideal mid-market fit (75 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: EdTech is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Hot lead (6 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0009",
+      "name": "Iris Patel",
+      "company": "Logistics Global",
+      "score": 6.7,
+      "reasoning": "Company size: Ideal mid-market fit (800 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Logistics is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Stale interaction (122 days ago) (Subscore: 1.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0011",
+      "name": "Karen Miller",
+      "company": "InsurancePro",
+      "score": 7.4,
+      "reasoning": "Company size: Ideal mid-market fit (600 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Insurance is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (36 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0013",
+      "name": "Maya Desai",
+      "company": "Agricultural Tech",
+      "score": 6.0,
+      "reasoning": "Company size: Growing SMB (45 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Agriculture is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Hot lead (4 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0016",
+      "name": "Pamela White",
+      "company": "Pharma Research Inc",
+      "score": 6.5,
+      "reasoning": "Company size: Large enterprise (2200 employees), longer procurement (Subscore: 7.0/10, Weight: 30%) | Industry fit: Pharmaceuticals is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (56 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0018",
+      "name": "Rachel Kim",
+      "company": "Government Agency",
+      "score": 6.0,
+      "reasoning": "Company size: Ideal mid-market fit (800 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Government is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Warm interaction (41 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0020",
+      "name": "Tina Patel",
+      "company": "Energy Solutions",
+      "score": 6.9,
+      "reasoning": "Company size: Ideal mid-market fit (900 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Energy is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Cooling lead (94 days ago) (Subscore: 4.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0021",
+      "name": "Uma Singh",
+      "company": "Event Planning Co",
+      "score": 5.8,
+      "reasoning": "Company size: Growing SMB (35 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Events is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (12 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0026",
+      "name": "Zara Hassan",
+      "company": "Education Institution",
+      "score": 7.4,
+      "reasoning": "Company size: Ideal mid-market fit (600 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Education is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (46 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0027",
+      "name": "Aaron Benjamin",
+      "company": "Supply Chain Co",
+      "score": 6.2,
+      "reasoning": "Company size: Ideal mid-market fit (320 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Supply Chain is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Recent interaction (18 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0029",
+      "name": "Cassandra Jones",
+      "company": "Media & Entertainment",
+      "score": 6.5,
+      "reasoning": "Company size: Ideal mid-market fit (150 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Media is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Recent interaction (19 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0032",
+      "name": "Fiona Murphy",
+      "company": "Telecommunications",
+      "score": 7.0,
+      "reasoning": "Company size: Large enterprise (2500 employees), longer procurement (Subscore: 7.0/10, Weight: 30%) | Industry fit: Telecom is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Cooling lead (66 days ago) (Subscore: 4.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0033",
+      "name": "Gabriella Torres",
+      "company": "Beauty & Cosmetics",
+      "score": 7.2,
+      "reasoning": "Company size: Ideal mid-market fit (120 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Consumer is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Hot lead (6 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0039",
+      "name": "Mona Patel",
+      "company": "Blockchain Startup",
+      "score": 7.0,
+      "reasoning": "Company size: Growing SMB (22 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Cryptocurrency is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Hot lead (5 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0040",
+      "name": "Nicholas Anderson",
+      "company": "Sports Management",
+      "score": 6.5,
+      "reasoning": "Company size: Ideal mid-market fit (85 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Sports is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Recent interaction (31 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0042",
+      "name": "Patricia Brown",
+      "company": "Biotechnology Research",
+      "score": 6.5,
+      "reasoning": "Company size: Ideal mid-market fit (250 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Biotech is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (11 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0043",
+      "name": "Quincy Adams",
+      "company": "Streaming Service",
+      "score": 6.0,
+      "reasoning": "Company size: Large enterprise (3000 employees), longer procurement (Subscore: 7.0/10, Weight: 30%) | Industry fit: Media is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Cooling lead (82 days ago) (Subscore: 4.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0044",
+      "name": "Rebecca Green",
+      "company": "Waste Management",
+      "score": 7.2,
+      "reasoning": "Company size: Ideal mid-market fit (1100 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Environmental is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Hot lead (12 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0051",
+      "name": "Xander Brooks",
+      "company": "Virtual Reality Studios",
+      "score": 7.1,
+      "reasoning": "Company size: Growing SMB (45 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Entertainment is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (17 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0052",
+      "name": "Yasmine Aziz",
+      "company": "Pet Care Services",
+      "score": 5.5,
+      "reasoning": "Company size: Growing SMB (28 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Consumer Services is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Recent interaction (18 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0058",
+      "name": "Evelyn Richardson",
+      "company": "Human Resources Tech",
+      "score": 6.5,
+      "reasoning": "Company size: Ideal mid-market fit (70 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: HR Tech is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (4 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0064",
+      "name": "Kennedy Owens",
+      "company": "Environmental Monitoring",
+      "score": 6.5,
+      "reasoning": "Company size: Ideal mid-market fit (55 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Climate Tech is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (10 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0076",
+      "name": "Walter Buchanan",
+      "company": "Construction Management",
+      "score": 7.2,
+      "reasoning": "Company size: Ideal mid-market fit (320 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Construction is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Recent interaction (22 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0079",
+      "name": "Zachary Coleman",
+      "company": "Landscaping Services",
+      "score": 5.7,
+      "reasoning": "Company size: Growing SMB (42 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Services is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Recent interaction (25 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0083",
+      "name": "Daisy Newton",
+      "company": "Wedding Planning Tech",
+      "score": 7.1,
+      "reasoning": "Company size: Growing SMB (38 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Events is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (29 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0085",
+      "name": "Finn O'Brien",
+      "company": "Craft Beverage",
+      "score": 6.5,
+      "reasoning": "Company size: Ideal mid-market fit (85 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Consumer is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Recent interaction (31 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0088",
+      "name": "Iris Monroe",
+      "company": "Corporate Training",
+      "score": 6.2,
+      "reasoning": "Company size: Ideal mid-market fit (110 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: EdTech is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Recent interaction (34 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0091",
+      "name": "Louisa Blake",
+      "company": "Interior Design Services",
+      "score": 5.3,
+      "reasoning": "Company size: Growing SMB (28 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Services is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Warm interaction (37 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0092",
+      "name": "Marcus Stewart",
+      "company": "Cyber Insurance",
+      "score": 7.0,
+      "reasoning": "Company size: Ideal mid-market fit (220 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Insurance is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Warm interaction (38 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0093",
+      "name": "Natasha Volkov",
+      "company": "Import Export Trading",
+      "score": 7.4,
+      "reasoning": "Company size: Ideal mid-market fit (350 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Trade is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (39 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0094",
+      "name": "Oliver Thorne",
+      "company": "Museum Management",
+      "score": 5.8,
+      "reasoning": "Company size: Ideal mid-market fit (65 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Cultural is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Warm interaction (40 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0096",
+      "name": "Quinn Murphy",
+      "company": "Volunteer Management",
+      "score": 5.8,
+      "reasoning": "Company size: Growing SMB (40 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: NonProfit is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Warm interaction (42 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0099",
+      "name": "Tobias Wright",
+      "company": "Vehicle Tracking",
+      "score": 7.4,
+      "reasoning": "Company size: Ideal mid-market fit (220 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Automotive is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (45 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0100",
+      "name": "Uriel Reyes",
+      "company": "Waste Reduction",
+      "score": 5.8,
+      "reasoning": "Company size: Ideal mid-market fit (95 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Environmental is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Warm interaction (46 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "data_issues": []
+    }
+  ],
+  "disqualified_leads": [
+    {
+      "lead_id": "LEAD-0015",
+      "name": "Olivia Garcia",
+      "company": "Local Restaurant Group",
+      "score": 3.3,
+      "rejection_reasons": [
+        "Hospitality is non-core vertical",
+        "Cold outbound outreach",
+        "Stale interaction (143 days ago)"
+      ]
+    },
+    {
+      "lead_id": "LEAD-0034",
+      "name": "Hassan Khalil",
+      "company": "Oil & Gas Corp",
+      "score": 3.2,
+      "rejection_reasons": [
+        "Mega enterprise (8000 employees), requires strategic enterprise sales",
+        "Energy is non-core vertical",
+        "Stale interaction (141 days ago)"
+      ]
+    }
+  ],
+  "lead_results": [
+    {
+      "lead_id": "LEAD-0001",
+      "name": "Alice Chen",
+      "company": "CloudScale AI",
+      "company_size": 50,
+      "industry": "SaaS",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2024-01-15",
+      "score": 10.0,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (50 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: SaaS is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (5 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Alice Chen, thanks for reaching out for a demo of our platform. Given CloudScale AI's focus in SaaS with ~50 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0002",
+      "name": "Bob Rodriguez",
+      "company": "TechVentures Inc",
+      "company_size": 8,
+      "industry": "SaaS",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2024-01-20",
+      "score": 6.0,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Micro-team (8 employees) below mid-market threshold (Subscore: 2.0/10, Weight: 30%) | Industry fit: SaaS is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (0 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Micro-team (8 employees) below mid-market threshold",
+        "Cold outbound outreach"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0003",
+      "name": "Carol Singh",
+      "company": "National Bank Corp",
+      "company_size": 5000,
+      "industry": "Finance",
+      "source": "Content download",
+      "last_interaction_date": "2023-12-01",
+      "score": 6.1,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Large enterprise (5000 employees), longer procurement (Subscore: 7.0/10, Weight: 30%) | Industry fit: Finance is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Warm interaction (50 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0004",
+      "name": "David Moore",
+      "company": "StartupXYZ",
+      "company_size": 3,
+      "industry": "SaaS",
+      "source": "Referral",
+      "last_interaction_date": "2024-01-18",
+      "score": 7.2,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Micro-team (3 employees) below mid-market threshold (Subscore: 2.0/10, Weight: 30%) | Industry fit: SaaS is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Hot lead (2 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Micro-team (3 employees) below mid-market threshold"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0005",
+      "name": "Emma Thompson",
+      "company": "RetailWorks Solutions",
+      "company_size": 200,
+      "industry": "Retail",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2023-11-10",
+      "score": 7.9,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (200 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Retail is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Cooling lead (71 days ago) (Subscore: 4.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Emma Thompson, thanks for reaching out for a demo of our platform. Given RetailWorks Solutions's focus in Retail with ~200 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0006",
+      "name": "Frank Liu",
+      "company": "Healthcare Systems Ltd",
+      "company_size": 1200,
+      "industry": "Healthcare",
+      "source": "Sales call",
+      "last_interaction_date": "2024-01-12",
+      "score": 10.0,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (1200 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Healthcare is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (8 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Frank Liu, thanks for reaching out for a demo of our platform. Given Healthcare Systems Ltd's focus in Healthcare with ~1200 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0007",
+      "name": "Grace Lee",
+      "company": "Manufacturing Co",
+      "company_size": 450,
+      "industry": "Manufacturing",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2023-10-05",
+      "score": 7.0,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (450 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Manufacturing is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Cooling lead (107 days ago) (Subscore: 4.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0008",
+      "name": "Henry Park",
+      "company": "EdTech Innovations",
+      "company_size": 75,
+      "industry": "EdTech",
+      "source": "Content download",
+      "last_interaction_date": "2024-01-14",
+      "score": 6.8,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (75 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: EdTech is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Hot lead (6 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "EdTech is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0009",
+      "name": "Iris Patel",
+      "company": "Logistics Global",
+      "company_size": 800,
+      "industry": "Logistics",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2023-09-20",
+      "score": 6.7,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (800 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Logistics is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Stale interaction (122 days ago) (Subscore: 1.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Cold outbound outreach",
+        "Stale interaction (122 days ago)"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0010",
+      "name": "Jack White",
+      "company": "Digital Marketing Agency",
+      "company_size": 120,
+      "industry": "Marketing",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2024-01-19",
+      "score": 9.1,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (120 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Marketing is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (1 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Jack White, thanks for reaching out for a demo of our platform. Given Digital Marketing Agency's focus in Marketing with ~120 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0011",
+      "name": "Karen Miller",
+      "company": "InsurancePro",
+      "company_size": 600,
+      "industry": "Insurance",
+      "source": "Sales call",
+      "last_interaction_date": "2023-12-15",
+      "score": 7.4,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (600 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Insurance is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (36 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Insurance is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0012",
+      "name": "Leon Chen",
+      "company": "FinTech Startup",
+      "company_size": 25,
+      "industry": "FinTech",
+      "source": "Referral",
+      "last_interaction_date": "2024-01-17",
+      "score": 8.9,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Growing SMB (25 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: FinTech is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Hot lead (3 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Leon Chen, our mutual network recommended connecting given the great work you're leading at FinTech Startup. In the FinTech space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0013",
+      "name": "Maya Desai",
+      "company": "Agricultural Tech",
+      "company_size": 45,
+      "industry": "Agriculture",
+      "source": "Content download",
+      "last_interaction_date": "2024-01-16",
+      "score": 6.0,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Growing SMB (45 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Agriculture is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Hot lead (4 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Agriculture is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0014",
+      "name": "Nathan Brooks",
+      "company": "Enterprise Solutions Corp",
+      "company_size": 3500,
+      "industry": "Software",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2024-01-13",
+      "score": 9.1,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Large enterprise (3500 employees), longer procurement (Subscore: 7.0/10, Weight: 30%) | Industry fit: Software is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (7 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Nathan Brooks, thanks for reaching out for a demo of our platform. Given Enterprise Solutions Corp's focus in Software with ~3500 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0015",
+      "name": "Olivia Garcia",
+      "company": "Local Restaurant Group",
+      "company_size": 12,
+      "industry": "Hospitality",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2023-08-30",
+      "score": 3.3,
+      "decision": "REJECTED",
+      "priority": "NONE",
+      "reasoning": "Company size: Early startup (12 employees), limited budget (Subscore: 5.0/10, Weight: 30%) | Industry fit: Hospitality is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Stale interaction (143 days ago) (Subscore: 1.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Hospitality is non-core vertical",
+        "Cold outbound outreach",
+        "Stale interaction (143 days ago)"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0016",
+      "name": "Pamela White",
+      "company": "Pharma Research Inc",
+      "company_size": 2200,
+      "industry": "Pharmaceuticals",
+      "source": "Sales call",
+      "last_interaction_date": "2023-11-25",
+      "score": 6.5,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Large enterprise (2200 employees), longer procurement (Subscore: 7.0/10, Weight: 30%) | Industry fit: Pharmaceuticals is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (56 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Pharmaceuticals is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0017",
+      "name": "Quinn Matthews",
+      "company": "Consulting Firm",
+      "company_size": 180,
+      "industry": "Consulting",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2024-01-11",
+      "score": 8.2,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (180 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Consulting is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Hot lead (9 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Quinn Matthews, thank you for joining our recent session on automated pipeline intelligence. I noticed your focus at Consulting Firm in Consulting and thought you might appreciate the case study showing how peer companies increased SDR conversion by 4x. Happy to share the deck or discuss further if relevant.",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0018",
+      "name": "Rachel Kim",
+      "company": "Government Agency",
+      "company_size": 800,
+      "industry": "Government",
+      "source": "Content download",
+      "last_interaction_date": "2023-12-10",
+      "score": 6.0,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (800 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Government is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Warm interaction (41 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Government is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0019",
+      "name": "Samuel Lee",
+      "company": "Cybersecurity Startup",
+      "company_size": 60,
+      "industry": "Cybersecurity",
+      "source": "Referral",
+      "last_interaction_date": "2024-01-09",
+      "score": 9.6,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (60 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Cybersecurity is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Hot lead (11 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Samuel Lee, our mutual network recommended connecting given the great work you're leading at Cybersecurity Startup. In the Cybersecurity space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0020",
+      "name": "Tina Patel",
+      "company": "Energy Solutions",
+      "company_size": 900,
+      "industry": "Energy",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2023-10-18",
+      "score": 6.9,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (900 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Energy is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Cooling lead (94 days ago) (Subscore: 4.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Energy is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0021",
+      "name": "Uma Singh",
+      "company": "Event Planning Co",
+      "company_size": 35,
+      "industry": "Events",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2024-01-08",
+      "score": 5.8,
+      "decision": "REVIEW",
+      "priority": "LOW",
+      "reasoning": "Company size: Growing SMB (35 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Events is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (12 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Events is non-core vertical",
+        "Cold outbound outreach"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0022",
+      "name": "Victor Moore",
+      "company": "Real Estate Platform",
+      "company_size": 250,
+      "industry": "Real Estate",
+      "source": "Sales call",
+      "last_interaction_date": "2024-01-06",
+      "score": 9.1,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (250 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Real Estate is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (14 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Victor Moore, thanks for reaching out for a demo of our platform. Given Real Estate Platform's focus in Real Estate with ~250 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0023",
+      "name": "Wendy Zhang",
+      "company": "Fashion Brand",
+      "company_size": 400,
+      "industry": "Retail",
+      "source": "Content download",
+      "last_interaction_date": "2024-01-05",
+      "score": 7.5,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (400 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Retail is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Recent interaction (15 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Wendy Zhang, noticed Fashion Brand's strong growth in Retail. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0024",
+      "name": "Xavier Lopez",
+      "company": "Data Analytics Firm",
+      "company_size": 110,
+      "industry": "Analytics",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2023-12-22",
+      "score": 8.8,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (110 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Analytics is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Recent interaction (29 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Xavier Lopez, thank you for joining our recent session on automated pipeline intelligence. I noticed your focus at Data Analytics Firm in Analytics and thought you might appreciate the case study showing how peer companies increased SDR conversion by 4x. Happy to share the deck or discuss further if relevant.",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0025",
+      "name": "Yuki Tanaka",
+      "company": "Travel Technology",
+      "company_size": 55,
+      "industry": "Travel",
+      "source": "Referral",
+      "last_interaction_date": "2024-01-04",
+      "score": 7.5,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (55 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Travel is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Recent interaction (16 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Travel is non-core vertical"
+      ],
+      "outreach_message": "Hi Yuki Tanaka, our mutual network recommended connecting given the great work you're leading at Travel Technology. In the Travel space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0026",
+      "name": "Zara Hassan",
+      "company": "Education Institution",
+      "company_size": 600,
+      "industry": "Education",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2023-12-05",
+      "score": 7.4,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (600 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Education is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (46 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Education is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0027",
+      "name": "Aaron Benjamin",
+      "company": "Supply Chain Co",
+      "company_size": 320,
+      "industry": "Supply Chain",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2024-01-02",
+      "score": 6.2,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (320 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Supply Chain is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Recent interaction (18 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Supply Chain is non-core vertical",
+        "Cold outbound outreach"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0028",
+      "name": "Bella Cross",
+      "company": "Legal Services Firm",
+      "company_size": 90,
+      "industry": "Legal",
+      "source": "Sales call",
+      "last_interaction_date": "2023-11-30",
+      "score": 8.4,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (90 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Legal is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (51 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Bella Cross, thanks for reaching out for a demo of our platform. Given Legal Services Firm's focus in Legal with ~90 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0029",
+      "name": "Cassandra Jones",
+      "company": "Media & Entertainment",
+      "company_size": 150,
+      "industry": "Media",
+      "source": "Content download",
+      "last_interaction_date": "2024-01-01",
+      "score": 6.5,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (150 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Media is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Recent interaction (19 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Media is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0030",
+      "name": "Derek Johnson",
+      "company": "Cloud Infrastructure",
+      "company_size": 200,
+      "industry": "SaaS",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2024-01-19",
+      "score": 10.0,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (200 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: SaaS is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (1 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Derek Johnson, thanks for reaching out for a demo of our platform. Given Cloud Infrastructure's focus in SaaS with ~200 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0031",
+      "name": "Ethan Smith",
+      "company": "Mobile Development",
+      "company_size": 40,
+      "industry": "Software",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2024-01-17",
+      "score": 7.6,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Growing SMB (40 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Software is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (3 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Cold outbound outreach"
+      ],
+      "outreach_message": "Hi Ethan Smith, noticed Mobile Development's strong growth in Software. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0032",
+      "name": "Fiona Murphy",
+      "company": "Telecommunications",
+      "company_size": 2500,
+      "industry": "Telecom",
+      "source": "Sales call",
+      "last_interaction_date": "2023-11-15",
+      "score": 7.0,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Large enterprise (2500 employees), longer procurement (Subscore: 7.0/10, Weight: 30%) | Industry fit: Telecom is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Cooling lead (66 days ago) (Subscore: 4.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0033",
+      "name": "Gabriella Torres",
+      "company": "Beauty & Cosmetics",
+      "company_size": 120,
+      "industry": "Consumer",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2024-01-14",
+      "score": 7.2,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (120 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Consumer is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Hot lead (6 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Consumer is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0034",
+      "name": "Hassan Khalil",
+      "company": "Oil & Gas Corp",
+      "company_size": 8000,
+      "industry": "Energy",
+      "source": "Content download",
+      "last_interaction_date": "2023-09-01",
+      "score": 3.2,
+      "decision": "REJECTED",
+      "priority": "NONE",
+      "reasoning": "Company size: Mega enterprise (8000 employees), requires strategic enterprise sales (Subscore: 4.0/10, Weight: 30%) | Industry fit: Energy is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Stale interaction (141 days ago) (Subscore: 1.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Mega enterprise (8000 employees), requires strategic enterprise sales",
+        "Energy is non-core vertical",
+        "Stale interaction (141 days ago)"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0035",
+      "name": "Isabella Romano",
+      "company": "Luxury Hotels",
+      "company_size": 350,
+      "industry": "Hospitality",
+      "source": "Referral",
+      "last_interaction_date": "2024-01-16",
+      "score": 7.8,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (350 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Hospitality is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Hot lead (4 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Hospitality is non-core vertical"
+      ],
+      "outreach_message": "Hi Isabella Romano, our mutual network recommended connecting given the great work you're leading at Luxury Hotels. In the Hospitality space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0036",
+      "name": "James Wilson",
+      "company": "Property Management",
+      "company_size": 180,
+      "industry": "Real Estate",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2024-01-18",
+      "score": 9.1,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (180 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Real Estate is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (2 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi James Wilson, thanks for reaching out for a demo of our platform. Given Property Management's focus in Real Estate with ~180 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0037",
+      "name": "Katherine Lee",
+      "company": "Artificial Intelligence Lab",
+      "company_size": 65,
+      "industry": "AI/ML",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2024-01-13",
+      "score": 8.4,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (65 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: AI/ML is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (7 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Cold outbound outreach"
+      ],
+      "outreach_message": "Hi Katherine Lee, noticed Artificial Intelligence Lab's strong growth in AI/ML. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0038",
+      "name": "Liam O'Connor",
+      "company": "Venture Capital Fund",
+      "company_size": 40,
+      "industry": "Finance",
+      "source": "Sales call",
+      "last_interaction_date": "2024-01-10",
+      "score": 8.4,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Growing SMB (40 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Finance is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (10 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Liam O'Connor, thanks for reaching out for a demo of our platform. Given Venture Capital Fund's focus in Finance with ~40 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0039",
+      "name": "Mona Patel",
+      "company": "Blockchain Startup",
+      "company_size": 22,
+      "industry": "Cryptocurrency",
+      "source": "Referral",
+      "last_interaction_date": "2024-01-15",
+      "score": 7.0,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Growing SMB (22 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Cryptocurrency is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Hot lead (5 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Cryptocurrency is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0040",
+      "name": "Nicholas Anderson",
+      "company": "Sports Management",
+      "company_size": 85,
+      "industry": "Sports",
+      "source": "Content download",
+      "last_interaction_date": "2023-12-20",
+      "score": 6.5,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (85 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Sports is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Recent interaction (31 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Sports is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0041",
+      "name": "Olivia Martinez",
+      "company": "Renewable Energy Corp",
+      "company_size": 600,
+      "industry": "Energy",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2024-01-12",
+      "score": 8.1,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (600 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Energy is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (8 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Energy is non-core vertical"
+      ],
+      "outreach_message": "Hi Olivia Martinez, thanks for reaching out for a demo of our platform. Given Renewable Energy Corp's focus in Energy with ~600 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0042",
+      "name": "Patricia Brown",
+      "company": "Biotechnology Research",
+      "company_size": 250,
+      "industry": "Biotech",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2024-01-09",
+      "score": 6.5,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (250 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Biotech is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (11 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Biotech is non-core vertical",
+        "Cold outbound outreach"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0043",
+      "name": "Quincy Adams",
+      "company": "Streaming Service",
+      "company_size": 3000,
+      "industry": "Media",
+      "source": "Sales call",
+      "last_interaction_date": "2023-10-30",
+      "score": 6.0,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Large enterprise (3000 employees), longer procurement (Subscore: 7.0/10, Weight: 30%) | Industry fit: Media is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Cooling lead (82 days ago) (Subscore: 4.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Media is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0044",
+      "name": "Rebecca Green",
+      "company": "Waste Management",
+      "company_size": 1100,
+      "industry": "Environmental",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2024-01-08",
+      "score": 7.2,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (1100 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Environmental is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Hot lead (12 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Environmental is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0045",
+      "name": "Steven Chen",
+      "company": "Robotics Company",
+      "company_size": 75,
+      "industry": "Manufacturing",
+      "source": "Referral",
+      "last_interaction_date": "2024-01-07",
+      "score": 8.8,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (75 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Manufacturing is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Hot lead (13 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Steven Chen, our mutual network recommended connecting given the great work you're leading at Robotics Company. In the Manufacturing space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0046",
+      "name": "Sophia Moretti",
+      "company": "Wine Distribution",
+      "company_size": 95,
+      "industry": "Retail",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2024-01-11",
+      "score": 9.1,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (95 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Retail is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (9 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Sophia Moretti, thanks for reaching out for a demo of our platform. Given Wine Distribution's focus in Retail with ~95 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0047",
+      "name": "Theo Papadopoulos",
+      "company": "Construction Tech",
+      "company_size": 150,
+      "industry": "Construction",
+      "source": "Content download",
+      "last_interaction_date": "2024-01-06",
+      "score": 7.8,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (150 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Construction is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Hot lead (14 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Theo Papadopoulos, noticed Construction Tech's strong growth in Construction. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0048",
+      "name": "Ursula Hoffmann",
+      "company": "Insurance Tech",
+      "company_size": 130,
+      "industry": "InsurTech",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2024-01-05",
+      "score": 8.1,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (130 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: InsurTech is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Recent interaction (15 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Cold outbound outreach"
+      ],
+      "outreach_message": "Hi Ursula Hoffmann, noticed Insurance Tech's strong growth in InsurTech. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0049",
+      "name": "Victoria Summers",
+      "company": "Transportation Logistics",
+      "company_size": 550,
+      "industry": "Logistics",
+      "source": "Sales call",
+      "last_interaction_date": "2023-12-28",
+      "score": 9.7,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (550 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Logistics is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (23 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Victoria Summers, thanks for reaching out for a demo of our platform. Given Transportation Logistics's focus in Logistics with ~550 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0050",
+      "name": "William Knight",
+      "company": "Pharmaceutical Distribution",
+      "company_size": 400,
+      "industry": "Healthcare",
+      "source": "Referral",
+      "last_interaction_date": "2024-01-04",
+      "score": 9.3,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (400 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Healthcare is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Recent interaction (16 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi William Knight, our mutual network recommended connecting given the great work you're leading at Pharmaceutical Distribution. In the Healthcare space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0051",
+      "name": "Xander Brooks",
+      "company": "Virtual Reality Studios",
+      "company_size": 45,
+      "industry": "Entertainment",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2024-01-03",
+      "score": 7.1,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Growing SMB (45 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Entertainment is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (17 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Entertainment is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0052",
+      "name": "Yasmine Aziz",
+      "company": "Pet Care Services",
+      "company_size": 28,
+      "industry": "Consumer Services",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2024-01-02",
+      "score": 5.5,
+      "decision": "REVIEW",
+      "priority": "LOW",
+      "reasoning": "Company size: Growing SMB (28 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Consumer Services is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Recent interaction (18 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Consumer Services is non-core vertical",
+        "Cold outbound outreach"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0053",
+      "name": "Zachary Pierce",
+      "company": "Office Furniture",
+      "company_size": 175,
+      "industry": "Retail",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2023-12-18",
+      "score": 8.0,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (175 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Retail is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Recent interaction (33 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Zachary Pierce, thank you for joining our recent session on automated pipeline intelligence. I noticed your focus at Office Furniture in Retail and thought you might appreciate the case study showing how peer companies increased SDR conversion by 4x. Happy to share the deck or discuss further if relevant.",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0054",
+      "name": "Amelia Davis",
+      "company": "Cybersecurity Consulting",
+      "company_size": 95,
+      "industry": "Cybersecurity",
+      "source": "Sales call",
+      "last_interaction_date": "2024-01-20",
+      "score": 10.0,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (95 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Cybersecurity is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (0 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Amelia Davis, thanks for reaching out for a demo of our platform. Given Cybersecurity Consulting's focus in Cybersecurity with ~95 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0055",
+      "name": "Bradley Foster",
+      "company": "Cloud Storage",
+      "company_size": 800,
+      "industry": "SaaS",
+      "source": "Content download",
+      "last_interaction_date": "2024-01-19",
+      "score": 8.6,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (800 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: SaaS is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Hot lead (1 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Bradley Foster, noticed Cloud Storage's strong growth in SaaS. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0056",
+      "name": "Chloe Mitchell",
+      "company": "Supply Chain Analytics",
+      "company_size": 60,
+      "industry": "Software",
+      "source": "Referral",
+      "last_interaction_date": "2024-01-18",
+      "score": 9.6,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (60 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Software is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Hot lead (2 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Chloe Mitchell, our mutual network recommended connecting given the great work you're leading at Supply Chain Analytics. In the Software space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0057",
+      "name": "Dominic Wheeler",
+      "company": "Payment Processing",
+      "company_size": 500,
+      "industry": "FinTech",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2024-01-17",
+      "score": 10.0,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (500 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: FinTech is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (3 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Dominic Wheeler, thanks for reaching out for a demo of our platform. Given Payment Processing's focus in FinTech with ~500 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0058",
+      "name": "Evelyn Richardson",
+      "company": "Human Resources Tech",
+      "company_size": 70,
+      "industry": "HR Tech",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2024-01-16",
+      "score": 6.5,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (70 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: HR Tech is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (4 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "HR Tech is non-core vertical",
+        "Cold outbound outreach"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0059",
+      "name": "Franklin Hayes",
+      "company": "Accounting Software",
+      "company_size": 220,
+      "industry": "Software",
+      "source": "Sales call",
+      "last_interaction_date": "2024-01-15",
+      "score": 10.0,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (220 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Software is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (5 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Franklin Hayes, thanks for reaching out for a demo of our platform. Given Accounting Software's focus in Software with ~220 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0060",
+      "name": "Gina Reeves",
+      "company": "E-commerce Platform",
+      "company_size": 140,
+      "industry": "SaaS",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2024-01-14",
+      "score": 9.1,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (140 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: SaaS is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Hot lead (6 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Gina Reeves, thank you for joining our recent session on automated pipeline intelligence. I noticed your focus at E-commerce Platform in SaaS and thought you might appreciate the case study showing how peer companies increased SDR conversion by 4x. Happy to share the deck or discuss further if relevant.",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0061",
+      "name": "Harrison Scott",
+      "company": "Commercial Real Estate",
+      "company_size": 900,
+      "industry": "Real Estate",
+      "source": "Content download",
+      "last_interaction_date": "2024-01-13",
+      "score": 7.8,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (900 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Real Estate is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Hot lead (7 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Harrison Scott, noticed Commercial Real Estate's strong growth in Real Estate. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0062",
+      "name": "Iris Wagner",
+      "company": "Telecommunications Equipment",
+      "company_size": 2000,
+      "industry": "Telecom",
+      "source": "Referral",
+      "last_interaction_date": "2024-01-12",
+      "score": 8.8,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (2000 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Telecom is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Hot lead (8 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Iris Wagner, our mutual network recommended connecting given the great work you're leading at Telecommunications Equipment. In the Telecom space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0063",
+      "name": "Jerome Long",
+      "company": "Logistics Optimization",
+      "company_size": 85,
+      "industry": "Software",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2024-01-11",
+      "score": 10.0,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (85 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Software is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (9 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Jerome Long, thanks for reaching out for a demo of our platform. Given Logistics Optimization's focus in Software with ~85 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0064",
+      "name": "Kennedy Owens",
+      "company": "Environmental Monitoring",
+      "company_size": 55,
+      "industry": "Climate Tech",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2024-01-10",
+      "score": 6.5,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (55 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Climate Tech is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Hot lead (10 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Climate Tech is non-core vertical",
+        "Cold outbound outreach"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0065",
+      "name": "Lauren Blake",
+      "company": "Medical Devices",
+      "company_size": 450,
+      "industry": "Healthcare",
+      "source": "Sales call",
+      "last_interaction_date": "2024-01-09",
+      "score": 10.0,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (450 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Healthcare is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Hot lead (11 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Lauren Blake, thanks for reaching out for a demo of our platform. Given Medical Devices's focus in Healthcare with ~450 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0066",
+      "name": "Marcus Hunt",
+      "company": "Venture Studio",
+      "company_size": 35,
+      "industry": "Finance",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2024-01-08",
+      "score": 7.5,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Growing SMB (35 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Finance is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Hot lead (12 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Marcus Hunt, thank you for joining our recent session on automated pipeline intelligence. I noticed your focus at Venture Studio in Finance and thought you might appreciate the case study showing how peer companies increased SDR conversion by 4x. Happy to share the deck or discuss further if relevant.",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0067",
+      "name": "Natalie Stone",
+      "company": "Fashion E-commerce",
+      "company_size": 110,
+      "industry": "Retail",
+      "source": "Content download",
+      "last_interaction_date": "2024-01-07",
+      "score": 7.8,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (110 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Retail is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Hot lead (13 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Natalie Stone, noticed Fashion E-commerce's strong growth in Retail. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0068",
+      "name": "Oscar Rivera",
+      "company": "Warehouse Automation",
+      "company_size": 300,
+      "industry": "Logistics",
+      "source": "Referral",
+      "last_interaction_date": "2024-01-06",
+      "score": 9.6,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (300 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Logistics is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Hot lead (14 days ago) (Subscore: 10.0/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Oscar Rivera, our mutual network recommended connecting given the great work you're leading at Warehouse Automation. In the Logistics space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0069",
+      "name": "Penny Walsh",
+      "company": "Mental Health Platform",
+      "company_size": 75,
+      "industry": "HealthTech",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2024-01-05",
+      "score": 9.7,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (75 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: HealthTech is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (15 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Penny Walsh, thanks for reaching out for a demo of our platform. Given Mental Health Platform's focus in HealthTech with ~75 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0070",
+      "name": "Quinton Price",
+      "company": "Database Software",
+      "company_size": 250,
+      "industry": "Software",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2024-01-04",
+      "score": 8.1,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (250 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Software is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Recent interaction (16 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Cold outbound outreach"
+      ],
+      "outreach_message": "Hi Quinton Price, noticed Database Software's strong growth in Software. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0071",
+      "name": "Ruby Chen",
+      "company": "Sustainable Fashion",
+      "company_size": 85,
+      "industry": "Retail",
+      "source": "Sales call",
+      "last_interaction_date": "2024-01-03",
+      "score": 8.8,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (85 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Retail is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (17 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Ruby Chen, thanks for reaching out for a demo of our platform. Given Sustainable Fashion's focus in Retail with ~85 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0072",
+      "name": "Silas Brown",
+      "company": "Financial Advisory",
+      "company_size": 140,
+      "industry": "Finance",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2024-01-02",
+      "score": 8.0,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (140 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Finance is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Recent interaction (18 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Silas Brown, thank you for joining our recent session on automated pipeline intelligence. I noticed your focus at Financial Advisory in Finance and thought you might appreciate the case study showing how peer companies increased SDR conversion by 4x. Happy to share the deck or discuss further if relevant.",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0073",
+      "name": "Tara Gonzalez",
+      "company": "Nutrition Tech",
+      "company_size": 50,
+      "industry": "HealthTech",
+      "source": "Content download",
+      "last_interaction_date": "2024-01-01",
+      "score": 8.3,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (50 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: HealthTech is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Recent interaction (19 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Tara Gonzalez, noticed Nutrition Tech's strong growth in HealthTech. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0074",
+      "name": "Ulysses Morgan",
+      "company": "Autonomous Vehicles",
+      "company_size": 600,
+      "industry": "Automotive",
+      "source": "Referral",
+      "last_interaction_date": "2023-12-31",
+      "score": 7.5,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (600 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Automotive is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Recent interaction (20 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Automotive is non-core vertical"
+      ],
+      "outreach_message": "Hi Ulysses Morgan, our mutual network recommended connecting given the great work you're leading at Autonomous Vehicles. In the Automotive space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0075",
+      "name": "Veronica Adams",
+      "company": "Commercial Cleaning",
+      "company_size": 180,
+      "industry": "Business Services",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2023-12-30",
+      "score": 7.8,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (180 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Business Services is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (21 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Business Services is non-core vertical"
+      ],
+      "outreach_message": "Hi Veronica Adams, thanks for reaching out for a demo of our platform. Given Commercial Cleaning's focus in Business Services with ~180 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0076",
+      "name": "Walter Buchanan",
+      "company": "Construction Management",
+      "company_size": 320,
+      "industry": "Construction",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2023-12-29",
+      "score": 7.2,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (320 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Construction is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Recent interaction (22 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Cold outbound outreach"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0077",
+      "name": "Ximena Flores",
+      "company": "Gaming Studio",
+      "company_size": 95,
+      "industry": "Entertainment",
+      "source": "Sales call",
+      "last_interaction_date": "2023-12-28",
+      "score": 7.8,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (95 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Entertainment is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (23 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Entertainment is non-core vertical"
+      ],
+      "outreach_message": "Hi Ximena Flores, thanks for reaching out for a demo of our platform. Given Gaming Studio's focus in Entertainment with ~95 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0078",
+      "name": "Yolanda Martinez",
+      "company": "Customer Support Platform",
+      "company_size": 110,
+      "industry": "SaaS",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2023-12-27",
+      "score": 8.8,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (110 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: SaaS is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Recent interaction (24 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Yolanda Martinez, thank you for joining our recent session on automated pipeline intelligence. I noticed your focus at Customer Support Platform in SaaS and thought you might appreciate the case study showing how peer companies increased SDR conversion by 4x. Happy to share the deck or discuss further if relevant.",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0079",
+      "name": "Zachary Coleman",
+      "company": "Landscaping Services",
+      "company_size": 42,
+      "industry": "Services",
+      "source": "Content download",
+      "last_interaction_date": "2023-12-26",
+      "score": 5.7,
+      "decision": "REVIEW",
+      "priority": "LOW",
+      "reasoning": "Company size: Growing SMB (42 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Services is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Recent interaction (25 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Services is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0080",
+      "name": "Audrey Powell",
+      "company": "Dental Practice Management",
+      "company_size": 150,
+      "industry": "Healthcare",
+      "source": "Referral",
+      "last_interaction_date": "2023-12-25",
+      "score": 9.3,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (150 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Healthcare is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Recent interaction (26 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Audrey Powell, our mutual network recommended connecting given the great work you're leading at Dental Practice Management. In the Healthcare space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0081",
+      "name": "Bryson Hart",
+      "company": "Climate Analytics",
+      "company_size": 70,
+      "industry": "Climate Tech",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2023-12-24",
+      "score": 7.8,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (70 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Climate Tech is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (27 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Climate Tech is non-core vertical"
+      ],
+      "outreach_message": "Hi Bryson Hart, thanks for reaching out for a demo of our platform. Given Climate Analytics's focus in Climate Tech with ~70 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0082",
+      "name": "Cecilia Santos",
+      "company": "Freight Forwarding",
+      "company_size": 400,
+      "industry": "Logistics",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2023-12-23",
+      "score": 8.1,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (400 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Logistics is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Recent interaction (28 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Cold outbound outreach"
+      ],
+      "outreach_message": "Hi Cecilia Santos, noticed Freight Forwarding's strong growth in Logistics. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0083",
+      "name": "Daisy Newton",
+      "company": "Wedding Planning Tech",
+      "company_size": 38,
+      "industry": "Events",
+      "source": "Sales call",
+      "last_interaction_date": "2023-12-22",
+      "score": 7.1,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Growing SMB (38 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Events is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (29 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Events is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0084",
+      "name": "Ezra Fox",
+      "company": "Veterinary Practice",
+      "company_size": 65,
+      "industry": "Healthcare",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2023-12-21",
+      "score": 8.8,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (65 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Healthcare is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Recent interaction (30 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Ezra Fox, thank you for joining our recent session on automated pipeline intelligence. I noticed your focus at Veterinary Practice in Healthcare and thought you might appreciate the case study showing how peer companies increased SDR conversion by 4x. Happy to share the deck or discuss further if relevant.",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0085",
+      "name": "Finn O'Brien",
+      "company": "Craft Beverage",
+      "company_size": 85,
+      "industry": "Consumer",
+      "source": "Content download",
+      "last_interaction_date": "2023-12-20",
+      "score": 6.5,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (85 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Consumer is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Recent interaction (31 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Consumer is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0086",
+      "name": "Gemma Hart",
+      "company": "Public Relations Firm",
+      "company_size": 75,
+      "industry": "Marketing",
+      "source": "Referral",
+      "last_interaction_date": "2023-12-19",
+      "score": 8.4,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (75 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Marketing is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Recent interaction (32 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Gemma Hart, our mutual network recommended connecting given the great work you're leading at Public Relations Firm. In the Marketing space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0087",
+      "name": "Harper Knight",
+      "company": "Retail Inventory",
+      "company_size": 140,
+      "industry": "Retail",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2023-12-18",
+      "score": 8.8,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (140 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Retail is secondary/adjacent vertical (Subscore: 6.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (33 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Harper Knight, thanks for reaching out for a demo of our platform. Given Retail Inventory's focus in Retail with ~140 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0088",
+      "name": "Iris Monroe",
+      "company": "Corporate Training",
+      "company_size": 110,
+      "industry": "EdTech",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2023-12-17",
+      "score": 6.2,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (110 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: EdTech is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Recent interaction (34 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "EdTech is non-core vertical",
+        "Cold outbound outreach"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0089",
+      "name": "Julian Parks",
+      "company": "Hotel Management",
+      "company_size": 250,
+      "industry": "Hospitality",
+      "source": "Sales call",
+      "last_interaction_date": "2023-12-16",
+      "score": 7.8,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (250 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Hospitality is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Recent interaction (35 days ago) (Subscore: 8.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Hospitality is non-core vertical"
+      ],
+      "outreach_message": "Hi Julian Parks, thanks for reaching out for a demo of our platform. Given Hotel Management's focus in Hospitality with ~250 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0090",
+      "name": "Kevin Grant",
+      "company": "Knowledge Management",
+      "company_size": 125,
+      "industry": "Software",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2023-12-15",
+      "score": 8.4,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (125 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Software is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Warm interaction (36 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Kevin Grant, thank you for joining our recent session on automated pipeline intelligence. I noticed your focus at Knowledge Management in Software and thought you might appreciate the case study showing how peer companies increased SDR conversion by 4x. Happy to share the deck or discuss further if relevant.",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0091",
+      "name": "Louisa Blake",
+      "company": "Interior Design Services",
+      "company_size": 28,
+      "industry": "Services",
+      "source": "Content download",
+      "last_interaction_date": "2023-12-14",
+      "score": 5.3,
+      "decision": "REVIEW",
+      "priority": "LOW",
+      "reasoning": "Company size: Growing SMB (28 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: Services is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Warm interaction (37 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Services is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0092",
+      "name": "Marcus Stewart",
+      "company": "Cyber Insurance",
+      "company_size": 220,
+      "industry": "Insurance",
+      "source": "Referral",
+      "last_interaction_date": "2023-12-13",
+      "score": 7.0,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (220 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Insurance is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Warm interaction (38 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Insurance is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0093",
+      "name": "Natasha Volkov",
+      "company": "Import Export Trading",
+      "company_size": 350,
+      "industry": "Trade",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2023-12-12",
+      "score": 7.4,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (350 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Trade is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (39 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Trade is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0094",
+      "name": "Oliver Thorne",
+      "company": "Museum Management",
+      "company_size": 65,
+      "industry": "Cultural",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2023-12-11",
+      "score": 5.8,
+      "decision": "REVIEW",
+      "priority": "LOW",
+      "reasoning": "Company size: Ideal mid-market fit (65 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Cultural is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Warm interaction (40 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Cultural is non-core vertical",
+        "Cold outbound outreach"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0095",
+      "name": "Priya Patel",
+      "company": "Network Security",
+      "company_size": 180,
+      "industry": "Cybersecurity",
+      "source": "Sales call",
+      "last_interaction_date": "2023-12-10",
+      "score": 9.3,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (180 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Cybersecurity is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: High direct intent (Sales call) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (41 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Priya Patel, thanks for reaching out for a demo of our platform. Given Network Security's focus in Cybersecurity with ~180 team members, we've helped similar teams streamline pipeline workflows and eliminate manual qualification bottlenecks. Are you open to a brief 15-minute sync this Tuesday or Wednesday to explore fit?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0096",
+      "name": "Quinn Murphy",
+      "company": "Volunteer Management",
+      "company_size": 40,
+      "industry": "NonProfit",
+      "source": "Webinar attendee",
+      "last_interaction_date": "2023-12-09",
+      "score": 5.8,
+      "decision": "REVIEW",
+      "priority": "LOW",
+      "reasoning": "Company size: Growing SMB (40 employees) (Subscore: 7.5/10, Weight: 30%) | Industry fit: NonProfit is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Engaged attendee (Webinar attendee) (Subscore: 6.5/10, Weight: 25%) | Recency: Warm interaction (42 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "NonProfit is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0097",
+      "name": "Raymond Grant",
+      "company": "Logistics Tracking",
+      "company_size": 300,
+      "industry": "Logistics",
+      "source": "Content download",
+      "last_interaction_date": "2023-12-08",
+      "score": 7.9,
+      "decision": "QUALIFIED",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (300 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Logistics is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Passive content download (Subscore: 4.5/10, Weight: 25%) | Recency: Warm interaction (43 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Raymond Grant, noticed Logistics Tracking's strong growth in Logistics. We specialize in solving pipeline qualification bottlenecks for fast-growing mid-market teams. Would you be open to a quick introductory chat to see how peer organizations are automating lead prioritization?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0098",
+      "name": "Sophie Lawrence",
+      "company": "Laboratory Information",
+      "company_size": 170,
+      "industry": "Healthcare",
+      "source": "Referral",
+      "last_interaction_date": "2023-12-07",
+      "score": 8.9,
+      "decision": "QUALIFIED",
+      "priority": "HIGH",
+      "reasoning": "Company size: Ideal mid-market fit (170 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Healthcare is core target vertical (Subscore: 10.0/10, Weight: 25%) | Acquisition source: Warm referral (Subscore: 8.5/10, Weight: 25%) | Recency: Warm interaction (44 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [],
+      "outreach_message": "Hi Sophie Lawrence, our mutual network recommended connecting given the great work you're leading at Laboratory Information. In the Healthcare space, scaling organizations often hit operational friction managing high-velocity lead pipelines. Would you be open to exchanging ideas on how modern automation is accelerating deal cycles for teams of your scale?",
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0099",
+      "name": "Tobias Wright",
+      "company": "Vehicle Tracking",
+      "company_size": 220,
+      "industry": "Automotive",
+      "source": "Inbound demo request",
+      "last_interaction_date": "2023-12-06",
+      "score": 7.4,
+      "decision": "REVIEW",
+      "priority": "MEDIUM",
+      "reasoning": "Company size: Ideal mid-market fit (220 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Automotive is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: High direct intent (Inbound demo request) (Subscore: 10.0/10, Weight: 25%) | Recency: Warm interaction (45 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Automotive is non-core vertical"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    },
+    {
+      "lead_id": "LEAD-0100",
+      "name": "Uriel Reyes",
+      "company": "Waste Reduction",
+      "company_size": 95,
+      "industry": "Environmental",
+      "source": "LinkedIn outreach",
+      "last_interaction_date": "2023-12-05",
+      "score": 5.8,
+      "decision": "REVIEW",
+      "priority": "LOW",
+      "reasoning": "Company size: Ideal mid-market fit (95 employees) (Subscore: 10.0/10, Weight: 30%) | Industry fit: Environmental is non-core vertical (Subscore: 2.5/10, Weight: 25%) | Acquisition source: Cold outbound outreach (Subscore: 3.5/10, Weight: 25%) | Recency: Warm interaction (46 days ago) (Subscore: 6.5/10, Weight: 20%)",
+      "rejection_reasons": [
+        "Environmental is non-core vertical",
+        "Cold outbound outreach"
+      ],
+      "outreach_message": null,
+      "data_issues": []
+    }
+  ]
+}
